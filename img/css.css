@@ -1,0 +1,38 @@
+.box1{
+    margin: auto;
+    text-align: center;
+}
+.box2{
+    margin: center;
+    list-style: none; /*loại bỏ kí hiệu đầu dòng*/
+    padding: 0;/* Loại bỏ padding mặc định của <ul> */
+    display: flex; /* Sử dụng flex để căn chỉnh các <li> trên một hàng */
+    padding-left: 500px;
+    margin: 12px;
+}
+.box2 li a{
+    display: inline-block;
+    margin : 30px; /* Loại bỏ margin mặc định của <li> */
+    padding : 10px; /* Tạo khaongr cách giữa các mục */
+    border: 1px solid #ccc; /* Đường viền để phân biệt các mục */  
+    text-decoration: none;
+    transition: 0.3s background-color;
+    font-size: 20px;
+    background-color: #2d363b;
+    color: white;
+}
+.box2 li a:hover {
+    background-color: #00aeef;
+}
+.xemthem{
+    margin-top: 10px;
+    margin-left: 660px;
+    color: black;
+}
+.xemthem a:hover {
+    color: #00aeef;
+}
+h1{
+    margin-top: 50px;
+    font-size: 50px;
+}

@@ -1,0 +1,122 @@
+body {
+    margin: center;
+    background-color: #D8BFD8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+    margin:center;
+    background-color: #00483d;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    padding: 20px ;
+    padding-left: 350px;
+}
+  
+.intro ul, .menu ul {
+    margin: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.intro ul li, .menu ul li {
+    margin-right: 20px;
+}
+  
+.intro ul li a, .menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.comp{
+    margin: center;
+    list-style: none; /*loại bỏ kí hiệu đầu dòng*/
+    padding: 0;/* Loại bỏ padding mặc định của <ul> */
+    display: flex; /* Sử dụng flex để căn chỉnh các <li> trên một hàng */
+    padding-left: 800px;
+    margin: 20px;
+}
+.comp li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 1 solid;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.comp p:nth-child(oll){
+    background-color: #00483d;
+}
+.comp li li:last-child{
+    margin-right: 0;
+}
+.comp li a{
+    text-decoration: none;
+    color: #00483d
+}
+.comp li a:hover {
+    background-color: #00aeef;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.enter a {
+    color: #04483d;
+}
+.menu{
+    margin: center;
+    list-style: none; /*loại bỏ kí hiệu đầu dòng*/
+    padding: 0;/* Loại bỏ padding mặc định của <ul> */
+    display: flex; /* Sử dụng flex để căn chỉnh các <li> trên một hàng */
+    padding-left: 300px;
+    margin: 12px;
+}
+.menu li a{
+    margin:center;
+    background-color: #00483d;
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    align-items: center;
+    padding: 20px ;
+   
+    
+}
+.menu li a:hover{
+    background-color: #00483d;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+ 
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+  
+.search button {
+    background-color: #008c72;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.check button{
+    border-radius: 20px;
+    background: #00483d;
+    width: 120px;
+    height: 10px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    font-size: 14px;
+}
